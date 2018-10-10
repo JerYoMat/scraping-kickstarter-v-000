@@ -15,3 +15,5 @@ end
 #title: project.css("h2.bbcard_name strong a")[0].text 
 # image link: project.css("div.project-thumbnail a img").attribute("src").value 
 #description project.css("p.bbcard_blurb").text
+
+#funded project.css("ul.project-stats li.first.funded strong").text
